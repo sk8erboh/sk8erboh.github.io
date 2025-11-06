@@ -1,0 +1,14 @@
+:root {
+    --primary: #5C28BC; /*paars*/
+    --onprimary: #000620; /*zwart*/
+    --secondary: #5C28BC; /*paars*/
+    --onsecondary: #F17300; /*oranje*/
+    --tertiary: #5296A5; /*blauw*/
+    --ontertiary: #000620; /*zwart*/
+    --page: #F7F1DD; /*eggshell*/
+    --onpage: #5296A5; /*blauw*/
+    --detail: #F17300; /*oranje*/
+    
+    --body-font: 1rem "chivo mono", monospace;
+    --title-font: 2rem "chivo mono", monospace;
+}
