@@ -8,6 +8,10 @@
     color: var(--onsecondary;)
 }
 
+.tertiary {
+    background: var(--tertiary);
+    color: var(--ontertiary);
+}
 .page {
     background: var(--page);
     color: var(--onpage);
@@ -18,12 +22,16 @@
     padding: 0rem;
 }
 
-html,
+html{
+    height: 100%;
+}
 body {
     width: 100%;
     background-color: var(--page);
-    color: var(--onprimary);
+    color: var(--ontertiary);
     font: var(--body-font);
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -33,10 +41,23 @@ header {
     color: var(--onsecondary);
     padding-bottom: 2rem;
     font: var(--title-font);
-    margin-left: 5px;
+}
+
+footer {
+    text-align: left;
+    width: 100%;
+    font: var(--body-font);
 }
 
 p {
+    padding: .25rem;
+}
+
+ul {
+    padding: .25rem;
+}
+
+ol {
     padding: .25rem;
 }
 
